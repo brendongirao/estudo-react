@@ -1,0 +1,37 @@
+.Menu{
+    width: 100vw;
+    display: inline-block;
+}
+
+.Menu-logo{
+    display: inline-block;
+    padding: 35px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 14pt;
+    font-weight: bold
+}
+
+.Menu-links{
+      display: inline-block;  
+}
+
+.Menu-links ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Menu-links ul>li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10pt;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.Menu-links ul>li:hover{
+    font-weight: bold;
+}

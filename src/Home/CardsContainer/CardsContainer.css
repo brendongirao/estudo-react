@@ -1,0 +1,58 @@
+.CardsContainer{
+    background-color: transparent;
+}
+
+.AddCard{
+    width: 20vw;
+    background-color: #074f43;
+    height: 120px;
+    margin: 15px; 
+    border-radius: 7px;
+    float: left;
+
+}
+
+.add{
+    font-size: 100px;
+    text-align: center;
+    display: block;
+    color: #033d33;
+    cursor: pointer
+}
+
+.NewCard{
+    background-color: white;
+    width: 20vw;
+    float: left;
+    margin: 15px;
+    height: auto;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 10px #074f43
+}
+
+.NewCardInput{
+    border: 1px solid #efefef;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.Card-button{
+    display: inline-block;
+    background-color: #eee;
+    padding: 7px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    font-size: 10pt;
+    color: #888;
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px #dbdbdb;
+    cursor: pointer;
+}
+
+.Card-button:hover{
+    box-shadow: 0px 0px 2px #dbdbdb;
+    margin-top: 1px;
+    margin-left: 11px;
+}
